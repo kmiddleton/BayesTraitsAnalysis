@@ -32,6 +32,7 @@ read_BayesTraits_log <- function(x) {
   names(log_file) <- gsub("(", "_", names(log_file), fixed = TRUE)
   names(log_file) <- gsub(")", "", names(log_file), fixed = TRUE)
   names(log_file) <- gsub("-", "_", names(log_file), fixed = TRUE)
+  names(log_file) <- gsub("^", "", names(log_file), fixed = TRUE)
 
   # Drop the empty last column
   log_file <- log_file[, 1:(ncol(log_file) - 1)]
