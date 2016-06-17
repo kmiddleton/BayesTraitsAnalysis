@@ -1,0 +1,17 @@
+Package: BayesTraitsAnalysis
+Type: Package
+Title: Analyze BayesTraits Log Files
+Version: 0.1
+Authors@R: person("Kevin", "Middleton", email = "middletonk@missouri.edu", role = c("aut", "cre"))
+Description: Log files output from BayesTraits are not very easily
+    read. This package simplifies that process by stripping out
+    header information and sanitizing the column names.
+License: GPL-2
+LazyData: TRUE
+Depends:
+    ggplot2,
+    cowplot,
+    dplyr,
+    reshape2,
+    readr
+RoxygenNote: 5.0.1
