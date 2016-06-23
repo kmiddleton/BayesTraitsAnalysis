@@ -15,5 +15,5 @@
 #' @docType package
 #' @author Kevin M. Middleton (\url{middletonk@@missouri.edu})
 #' @keywords package
-#' @import ggplot2 cowplot dplyr reshape2 readr
+#' @import cowplot dplyr reshape2 readr
 NULL

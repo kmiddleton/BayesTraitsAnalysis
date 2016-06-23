@@ -9,7 +9,6 @@ Description: Log files output from BayesTraits are not very easily
 License: GPL-2
 LazyData: TRUE
 Depends:
-    ggplot2,
     cowplot,
     dplyr,
     reshape2,
